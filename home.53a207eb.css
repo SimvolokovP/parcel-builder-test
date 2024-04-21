@@ -1,0 +1,160 @@
+.home__hero {
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hero__cover {
+  background-image: url("zdaniia_arhitektura_chb_173754_1920x1080.a543d231.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 60px;
+}
+
+.home {
+  padding-top: 120px;
+}
+
+.hero__title {
+  text-align: center;
+  color: #222021;
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0 0 10px;
+  font-size: 61px;
+}
+
+.hero__text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero__link {
+  color: #222021;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  background-color: #fee400;
+  border: 2px solid #0000;
+  border-radius: 48px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  transition: all .3s ease-in-out;
+  display: flex;
+}
+
+@media (hover: hover) {
+  .hero__link:hover {
+    background-color: #0000;
+    border: 2px solid #222021;
+  }
+}
+
+.about {
+  margin-bottom: 80px;
+}
+
+.about__content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.about__left {
+  max-width: 448px;
+  padding-left: 120px;
+}
+
+.about__right {
+  box-shadow: 10px 10px #fee400;
+}
+
+.about__title {
+  margin: 0 0 15px;
+  font-size: 36px;
+}
+
+.about__text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.order {
+  color: #f8f8f8;
+  background-color: #222021;
+  padding: 60px 0;
+}
+
+.order__container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 564px;
+  display: flex;
+}
+
+.order__title {
+  text-align: center;
+  margin: 0 0 8px;
+  font-size: 36px;
+}
+
+.order__descr {
+  text-align: center;
+  margin: 0 0 15px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.order__input {
+  color: #f8f8f8;
+  background-color: #0000;
+  border: 1px solid #f8f8f8;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 16px 140px 16px 24px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.order__name {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.order__text {
+  resize: none;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  width: 100%;
+  min-height: 320px;
+}
+
+.order__submit {
+  color: #222021;
+  cursor: pointer;
+  background-color: #fee400;
+  border: 2px solid #0000;
+  border-radius: 48px;
+  width: 320px;
+  padding: 20px 0;
+  transition: all .3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .order__submit:hover {
+    color: #f8f8f8;
+    background-color: #0000;
+    border: 2px solid #f8f8f8;
+  }
+}
+/*# sourceMappingURL=home.53a207eb.css.map */
